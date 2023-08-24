@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app {
+  @apply bg-[#edf2f8];
+}
+
+.app__whitebg {
+  @apply bg-[#ffffff];
+}
+
+.app__primarybg {
+  @apply bg-[#edf2f8];
+}
+
+.app__container {
+  @apply w-full min-h-full flex flex-row;
+}
+
+.app__flex {
+  @apply flex justify-center items-center;
+}
+
+.app__wrapper {
+  @apply flex-1 w-full flex-col flex md:px-8 md:py-16 pt-16 px-4 pb-8;
+}
+.copyright {
+  @apply flex flex-col w-full justify-end items-end;
+}
+
+.copyright__text {
+  @apply text-[#030303];
+}
+
+.head__text {
+  @apply text-2xl md:text-4xl text-center text-black font-semibold;
+}
+
+.p__text {
+  @apply text-sm text-left text-[#6b7688];
+}
+
+.bold__text {
+  @apply text-base font-bold text-[#030303] text-left;
+}
+
+.app__social {
+  @apply flex justify-end items-center flex-col p-4;
+}
+
+.app__social-div {
+  @apply h-[40px] w-[40px] rounded-[50%] my-1 border-[1px] border-[#e4e4e4] flex justify-center items-center transition-all ease-in-out;
+}
+
+.app__social-svg {
+  @apply h-[15px] w-[15px] text-[#6b7688];
+}
+
+.app__navigation-dot {
+  @apply w-[10px] h-[10px] rounded-[50%] bg-[#cbcbcb] transition-all ease-in-out hover:bg-[#313bac];
+}
+
+* {
+  scroll-behavior: smooth;
+}
