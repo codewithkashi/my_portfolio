@@ -43,7 +43,7 @@ export const projects = [
   {
     title: "Full Stack Netflix Clone",
     description:
-      "Netflix replica, harnessing the power of Next.js, Prisma, MongoDB, and Tailwind CSS. This dynamic platform enables users to explore an extensive movie catalog, create personalized accounts, and curate their own watchlists for a tailored entertainment experience. ",
+      "Netflix replica, harnessing the power of Next.js, Prisma, MongoDB, and Tailwind CSS enabling users to explore  movies catalog, create accounts, and curate their own watchlists. ",
     imgUrl: netflix,
     techs: ["Next.js", "TypeScript", "Tailwind CSS", "Prisma"],
     githubUrl: "https://github.com/codewithkashi/netflix-clone",
